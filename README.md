@@ -2,6 +2,7 @@
 
 - Hola, ¿Tienes un sorteo cercano a realizar con amigos?
   Si tú respuesta es "Si", te presento este sencillo y fácil programa en el que puedes realizarlo.
+
   Deja te explico como funciona 😁🎮✨
 
 -  Para empezar deja te muestro como se ve la primer pantalla
@@ -20,7 +21,7 @@
 
   <img width="1245" height="621" alt="amigo-ganador" src="https://github.com/user-attachments/assets/5bc463da-4382-4bee-8df2-1ac1228d9c63" />
 
-  Al finalizar el juego, el sistema de dará un mensaje dre alerta para mencionarte, que el juego termino y que es necesario actualizar la página.
+  Al finalizar el juego, el sistema te dará un mensaje dre alerta para mencionarte, que el juego termino y que es necesario actualizar la página.
   
   <img width="946" height="628" alt="juego-terminado" src="https://github.com/user-attachments/assets/88fc46a9-db43-492b-b6dd-c78dc8f0cf7b" />
 
@@ -28,7 +29,9 @@
 
 1. La pantalla no permitirá sortear sin haber al menos ingresado un nombre y por lo tanto, no podrás empezar a sortear.
    Te aparecerá un mensaje como este:
+ 
    <img width="714" height="639" alt="alerta-sorteo-sin-nombres" src="https://github.com/user-attachments/assets/cf1204f3-9da5-4920-a69c-0b88409246d6" />
 2. Deberás de ingresar el nombre de tu amigo antes de darle al botón de añadir, de lo contrario, no se añadira a la lista.
    Te aparecerá un mensaje como este:
+
    <img width="620" height="631" alt="sin-nombre" src="https://github.com/user-attachments/assets/0109aae5-605a-4e31-862f-d840ab993e62" />
