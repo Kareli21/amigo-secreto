@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Delius&family=Libertinus+Keyboard&display=swap');
+/* Se importaron dos estilos de fuentes para mejorar la visualización del proyecto */
 
+/* Se cambiaron los colores de fondo para tener un diseño más amigable */
+/* Se cambió la tipografía para que fuera mas adecuada para un juego */
 :root {
     --color-primary: #FFDCDC;
     --color-secondary: #FFF9EB;
@@ -62,7 +65,7 @@ body {
     font-style: italic;
     color: var(--color-white);
 }
-
+/* Se cambio la letra y el color */
 .section-title {
     font-family: "Delius", sans-serif;
     font-size: 36px;
@@ -81,6 +84,7 @@ body {
     margin-top: 20px;
 }
 
+/* Se cambio la letra y el color */
 .input-name {
     width: 100%;
     padding: 10px;
@@ -97,6 +101,7 @@ body {
 }
 
 /* Estilos de entrada de texto */
+/* Se cambio la tipografía */
 .input-title {
     flex: 1;
     padding: 10px 15px;
@@ -130,6 +135,7 @@ button {
 }
 
 /* Listas */
+/* Se cambio la letra y el color */
 ul {
     list-style-type: none;
     color: #F08080;
@@ -138,6 +144,7 @@ ul {
     margin: 20px 0;
 }
 
+/* Se cambio el color para que fuera más combinado con el color de fondo */
 .result-list {
     margin-top: 15px;
     color: #DC143C;
@@ -164,3 +171,4 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
