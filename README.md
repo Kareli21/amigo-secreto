@@ -6,7 +6,7 @@
 
   Deja te explico como funciona 😁🎮✨
 
-  <h2> Bienvenid@ al **"Juego del Amigo Secreto"**</h2>
+  <h2> Bienvenid@ al "Juego del Amigo Secreto"</h2>
 
 -  Para empezar deja te muestro como se ve la primer pantalla
  
@@ -30,7 +30,7 @@
 
 <h3> Consideraciones ☝️  </h3>
 
-1. La pantalla no permitirá sortear sin haber al menos ingresado un nombre y por lo tanto no podrás empezar a sortear.
+1. La pantalla no permitirá sortear sin haber al menos ingresado dos nombres y por lo tanto no podrás empezar a sortear.
 
    Te aparecerá un mensaje como este:
  
