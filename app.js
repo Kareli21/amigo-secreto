@@ -10,9 +10,8 @@ alert ("¿Estás seguro que tecleaste el nombre? 🤔");
   console.log (nombreAmigo.length );
 limpiarCaja();
 mostrarListaAmigo ();
-
+habilitarBoton ();
 }
-
 return;
 }
 function mostrarListaAmigo() {
@@ -29,21 +28,34 @@ function mostrarListaAmigo() {
 }
   function limpiarCaja(){
   document.querySelector('#amigo').value = "";
+ 
+   function habilitarBoton() {
+    let cantidadAmigos = nombreAmigo.length; 
+    let botonSortear = document.querySelector('#botonSortear');
+    
+    if (cantidadAmigos <= 1) {
+        botonSortear.setAttribute('disabled', 'true');
+    } else {
+        botonSortear.removeAttribute('disabled');
+    }
+}
 }
 function sortearAmigo() {
   let cantidadAmigos = nombreAmigo.length;
-  if (cantidadAmigos === 0) {
-    alert("¡Hey parece que olvidaste agregar el nombre de tus amigos antes de sortear! 🤭");
+  if (cantidadAmigos <= 1) {
+        alert("¡Hey parece que olvidaste agregar el nombre de tus amigos antes de sortear! 🤭");
   } else {  
     let indiceAmigo = Math.floor(Math.random() * cantidadAmigos);
     let resultadoHTML = document.querySelector("#resultado");
     let item = document.createElement('li');
         item.innerText=("El amigo ganador es: "+nombreAmigo[indiceAmigo]);
         resultadoHTML.appendChild(item);
-         nombreAmigo = [];   
-        mostrarListaAmigo();      
-  }
-   setTimeout(() => {
+        nombreAmigo = [];   
+        mostrarListaAmigo(); 
+        setTimeout(() => {
     alert("El sorteo ha terminado. Si deseas iniciar de nuevo, actualiza la página 🔄");
   }, 1500);
+        habilitarBoton ();   
+  }
 }
+
